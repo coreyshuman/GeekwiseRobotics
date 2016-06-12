@@ -1,0 +1,84 @@
+<div class="section-header">
+    <h4>{{c.header}}</h4>
+</div>
+<div class="section section-topics">
+    <h4>Today's Topics</h4>
+    <ul>
+        <li>Introductions</li>
+        <li>Discuss class goals</li>
+        <li>What is Robotics?</li>
+        <li>Installing Arduino</li>
+        <li>What's in our robot kit?</li>
+        <li>Electricity and Electronics Introduction</li>
+    </ul>
+</div>
+
+<div class="section section-content">
+    <h4>Introductions</h4>
+    <ul>
+        <li>Tell us your name</li>
+        <li>What experience or interest do you have with robots?</li>
+        <li>What do you hope to learn in this class?</li>
+    </ul>
+</div>
+
+<div class="section section-content">
+    <h4>Class Goals</h4>
+    <ul>
+        <li>Develop a solid foundation in robotics</li>
+        <li>Learn how to wire up basic circuits</li>
+        <li>Learn how to program an Arduino microcontroller</li>
+        <li>Learn basic C programming skills</li>
+        <li>Experiment with motors and sensors</li>
+        <li>Build robots that can accomplish certain tasks autonomously</li>
+    </ul>
+</div>
+
+<div class="section section-content">
+    <h4>What is Robotics?</h4>
+    <p>A robot is a machine that can perform a complex set of tasks automatically, without human interaction. Robots are controlled by programmable computers and user sensors to interact with the environment. The basic components of a robot are the body/frame, control system, manipulators, and drivetrain.</p>
+    <p>Robotics is the branch of technology that deals with the design, construction, operation, and application of robotics. The field of robotics relies on mathematics, electronics, computer science, artificial intelligence, mechatronics, nanotechnology, bioengineering, material science, and many other fields of science and technology.</p>
+</div>
+
+<div class="section section-content">
+    <h4>Cool Videos on Robotics</h4>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/6feEE716UEk"></iframe>
+    </div>
+    <br>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/8P9geWwi9e0"></iframe>
+    </div>
+</div>
+
+<div class="section section-topics">
+    <h4>Installing Arduino</h4>
+    <p>Arduino is open-source electronics platform based on easy-to-use hardware and software. We will use Arduino microcontrollers in this class to control and program our robots.
+        Arduino features a free development environment that will let us write code and push our code into the microcontroller.
+    </p>
+    <p>Follow the <a href="https://www.arduino.cc/en/Guide/Windows" target="_blank">Guide Here</a> to install the Arduino Software.</p>
+</div>
+
+<div class="section section-content">
+    <h4>What's in our robot kit?</h4>
+    <div class="row postbreak" ng-repeat="p in c.parts">
+        <div class="col-sm-9">
+            <p>{{p.text}}</p>
+        </div>
+        <div class="col-sm-3">
+            <a href={{p.img}} target="_blank"><img src={{p.img}} class="img-responsive"></a>
+        </div>
+    </div>
+</div>
+
+<div class="section section-content">
+    <h4>Electricity and Electronics Introduction</h4>
+    <p><em>Voltage:</em> An electromotive force or potential difference expressed in volts (V)</p>
+    <p><em>Current:</em> The flow of electric charge, expressed in Amps (A)</p>
+    <p><em>Resistance:</em> The measure of a conductors ability to resist or impede the flow of electric current, expressed in Ohms (&Omega;)</p>
+    <br>
+    <p><em>Ohm's Law:</em> V = IR</p>
+    
+    <p>Simple LED Circuit:</p>
+    <img src="day1/img/ledcircuit.png">
+</div>
