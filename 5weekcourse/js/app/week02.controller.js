@@ -1,7 +1,7 @@
 (function () {
     angular
         .module('app')
-        .controller('Week 2: Controller', Week02Controller);
+        .controller('Week02Controller', Week02Controller);
         
         function Week02Controller($scope) {
             var vm = this;
