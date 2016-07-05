@@ -1,12 +1,12 @@
 (function () {
     angular
         .module('app')
-        .controller('Week03Controller', Week03Controller);
+        .controller('Week04Controller', Week04Controller);
         
-        function Week03Controller($scope) {
+        function Week04Controller($scope) {
             var vm = this;
             
-            vm.header = "Week 3: Obstacle Avoidance and Line-Following Robot";
+            vm.header = "Week 4: Arduino Projects";
             
  
                 
