@@ -22,6 +22,11 @@
                     controller: 'Week03Controller',
                     controllerAs: 'c'
                 })
+                .when('/week04', {
+                    templateUrl: 'week04/content.html',
+                    controller: 'Week04Controller',
+                    controllerAs: 'c'
+                })
                 
                 .otherwise({redirectTo: '/week01'});
                 
